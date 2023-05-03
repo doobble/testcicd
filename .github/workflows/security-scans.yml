@@ -39,7 +39,7 @@ jobs:
         with:
           image-ref: 'vulnerables/web-dvwa:latest'
           format: 'sarif'
-          output: 'trivy-image-results-container.sarif'
+          output: 'trivy-results-container.sarif'
 #          exit-code: '1'
           ignore-unfixed: true
           vuln-type: 'os,library'
